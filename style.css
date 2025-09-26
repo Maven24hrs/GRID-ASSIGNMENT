@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-selection{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: lightblue;
+    border: 3px solid black;
+    border-radius: 15px;
+
+}
+
+.hobbies{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 12px;
+    border-right: 3px solid darkgoldenrod;
+
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 50px auto;
+
+
+    border: 2px solid yellow;
+}
+
+.head{
+    margin: auto 50px;
+}
